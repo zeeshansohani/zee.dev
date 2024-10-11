@@ -169,7 +169,7 @@ const Home = () => {
           {/* Left Side - Image */}
           <div className="w-1/2 h-full">
             <img
-              src="./src/assets/About Me.jpg"
+              src="./public/assets/About Me.jpg"
               alt="About Me picture"
               className="object-cover w-full h-full rounded-lg"
             />
@@ -228,7 +228,7 @@ const Home = () => {
       </section>
       <section
         className="bg-black bg-cover bg-center p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 h-60 flex flex-col justify-center items-center mt-4 mb-20"
-        style={{ backgroundImage: `url('/src/assets/spacepic.jpg')` }} // Change the URL to your actual image path
+        style={{ backgroundImage: `url('/public/assets/spacepic.jpg')` }} // Change the URL to your actual image path
       >
         <div className="text-white text-center">
           <h1 className="font-bold text-3xl mb-4">
@@ -255,7 +255,7 @@ const Home = () => {
           {/* Left card - Image 1 */}
           <div className="w-1/3">
             <img
-              src="./src/assets/jobhuntpic.png" // Add the correct path to your image
+              src="./public/assets/jobhuntpic.png" // Add the correct path to your image
               alt="Job Hunt Website"
               className="object-cover w-full h-full rounded-lg shadow-lg"
             />
@@ -279,7 +279,7 @@ const Home = () => {
           {/* Right card - Image 2 */}
           <div className="w-1/3">
             <img
-              src="./src/assets/chatai.png" // Add the correct path to your image
+              src="./public/assets/chatai.png" // Add the correct path to your image
               alt="Chat AI Website"
               className="object-cover w-full h-full rounded-lg shadow-lg"
             />
