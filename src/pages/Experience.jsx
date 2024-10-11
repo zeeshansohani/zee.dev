@@ -12,7 +12,7 @@ const Experience = () => {
         "Successfully launched and serviced 30 students in the first summer.",
         "Led development of the company website and initiated university partnership discussions.",
       ],
-      imageUrl: "./public/assets/snapstorelogo.jpg", // Placeholder image for SnapStore
+      imageUrl: "/assets/snapstorelogo.jpg", // Placeholder image for SnapStore
       showTechnologies: false, // Do not show technologies for SnapStore
       showVisitButton: true, // Show 'Visit Now' button for SnapStore
     },
@@ -27,7 +27,7 @@ const Experience = () => {
         "Streamlined data exchange between ERP system and shipping partners.",
       ],
       technologies: ["Python", "Django", "MySQL"],
-      imageUrl: "./public/assets/upluslogo.jpg", // Placeholder image for uPlus Accessories
+      imageUrl: "/assets/upluslogo.jpg", // Placeholder image for uPlus Accessories
       showTechnologies: true, // Show technologies for uPlus Accessories
       showVisitButton: false, // No 'Visit Now' button for uPlus
     },

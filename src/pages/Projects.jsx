@@ -14,7 +14,7 @@ const Projects = () => {
           "A chat application using MERN stack, TypeScript, Material UI, and OpenAI's GPT-3.5 Turbo API. Features include user authentication, chat history with delete option, and a modern UI. Frontend deployed on Netlify and backend on Render.",
         github: "https://github.com/zeeshansohani/chat-ai",
         demo: "https://chat-ai-now.netlify.app",
-        image: "./public/assets/Chat-AI..png", // Add image URL
+        image: "/assets/Chat-AI..png", // Add image URL
       },
       {
         name: "JobHunt",
@@ -22,7 +22,7 @@ const Projects = () => {
           "A full-stack job portal built with the MERN stack. Students can create profiles, apply for jobs, upload resumes via Cloudinary, and track applications. Recruiters can register companies, post jobs, and manage applications. Tailwind CSS and Shadcn ensure a responsive and dynamic UI.",
         github: "https://github.com/zeeshansohani/job-hunt",
         demo: "https://job-hunt-now.netlify.app",
-        image: "./public/assets/JobHunt.png", // Add image URL
+        image: "/assets/JobHunt.png", // Add image URL
       },
     ],
     reactprojects: [], // Currently no React projects

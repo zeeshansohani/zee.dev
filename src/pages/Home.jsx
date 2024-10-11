@@ -103,7 +103,7 @@ const Home = () => {
             </p>
             <div className="flex justify-center md:justify-start space-x-6 mb-6 animate-fadeIn delay-300">
               <a
-                href="./src/assets/Final Resume.docx.pdf"
+                href="/assets/Final Resume.docx.pdf"
                 download
                 className="bg-black text-white font-semibold py-3 px-6 rounded-lg shadow-lg  transition-transform transform hover:scale-105"
               >
@@ -228,7 +228,7 @@ const Home = () => {
       </section>
       <section
         className="bg-black bg-cover bg-center p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 h-60 flex flex-col justify-center items-center mt-4 mb-20"
-        style={{ backgroundImage: `url('/public/assets/spacepic.jpg')` }} // Change the URL to your actual image path
+        style={{ backgroundImage: `url('/assets/spacepic.jpg')` }} // Change the URL to your actual image path
       >
         <div className="text-white text-center">
           <h1 className="font-bold text-3xl mb-4">
@@ -255,7 +255,7 @@ const Home = () => {
           {/* Left card - Image 1 */}
           <div className="w-1/3">
             <img
-              src="./public/assets/jobhuntpic.png" // Add the correct path to your image
+              src="/assets/jobhuntpic.png" // Add the correct path to your image
               alt="Job Hunt Website"
               className="object-cover w-full h-full rounded-lg shadow-lg"
             />
@@ -279,7 +279,7 @@ const Home = () => {
           {/* Right card - Image 2 */}
           <div className="w-1/3">
             <img
-              src="./public/assets/chatai.png" // Add the correct path to your image
+              src="/assets/chatai.png" // Add the correct path to your image
               alt="Chat AI Website"
               className="object-cover w-full h-full rounded-lg shadow-lg"
             />
