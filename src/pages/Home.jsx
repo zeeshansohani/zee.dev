@@ -169,7 +169,7 @@ const Home = () => {
           {/* Left Side - Image */}
           <div className="w-1/2 h-full">
             <img
-              src="./public/assets/About Me.jpg"
+              src="/assets/About Me.jpg"
               alt="About Me picture"
               className="object-cover w-full h-full rounded-lg"
             />
