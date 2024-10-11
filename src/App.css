@@ -1,0 +1,19 @@
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.animate-type p {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  width: 24ch;
+  animation: typing 4s steps(24) 1s 1 normal both,
+             blink .75s step-end infinite;
+}
+
